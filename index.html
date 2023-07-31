@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
 <head>
     <title>W3.CSS Template</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
     <style>
         body,
@@ -19,37 +19,34 @@
             font-family: "Karma", sans-serif
         }
 
-        .w3-bar-block .w3-bar-item {
+        /* .w3-bar-block .w3-bar-item {
             padding: 20px
-        }
+        } */
     </style>
+    <script src="script/main.js"></script>
 </head>
 
 <body>
 
 
-
     <!-- Top menu -->
     <div class="w3-top">
         <div class="w3-white w3-xlarge">
-
+            <div class="w3-button w3-padding-16 w3-right" onclick="sidebar_open()">☰</div>
             <div class="w3-left w3-padding-small">
                 <img src="img/logo-skilift.png" alt="Logo Skilift Gsahl" style="height: 62px;">
             </div>
-            <div class="w3-right w3-padding-16">&nbsp;</div>
             <div class="w3-center w3-padding-16">Skilift Gsahl</div>
         </div>
-
     </div>
-    <label>
-        <input type="checkbox">
-        <span class="menu"> <span class="hamburger"></span> </span>
-        <ul>
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="www.google.com">About</a> </li>
-            <li> <a href="#">Contact</a> </li>
-        </ul>
-    </label>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="sidebar w3-bar-block w3-top w3-xlarge w3-animate-left" id="mySidebar">
+        <a href="javascript:void(0)" onclick="sidebar_close()" class="w3-bar-item w3-button">X</a>
+        <a href="#food" onclick="sidebar_close()" class="w3-bar-item w3-button">Food</a>
+        <a href="#about" onclick="sidebar_close()" class="w3-bar-item w3-button">About</a>
+    </nav>
+
 
 
     <!-- Header -->
