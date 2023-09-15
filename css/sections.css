@@ -1,0 +1,30 @@
+.with-background {
+  background-image: url("../img/winter-1-close.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1em;
+}
+
+.dark {
+  background-color: #0d3457;
+  color: #e4e8ea;
+}
+
+.medium-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

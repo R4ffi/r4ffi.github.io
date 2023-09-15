@@ -3,16 +3,28 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em;
-  background-color: teal;
-  color: #fff;
+  background-color: white;
+  color: black;
 }
 
-.nav-logo {
+.nav-logo a {
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-logo a img {
+  height: 4em;
+}
+
+.nav-logo a span {
   font-size: 2em;
 }
 
 .nav-links a {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
