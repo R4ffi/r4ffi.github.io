@@ -1,10 +1,13 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .with-background {
   background-image: url("../img/background-4096.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 article {
@@ -15,11 +18,18 @@ article {
   margin-top: 2em;
   margin-bottom: 2em;
   font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dark {
   background-color: #0d3457;
   color: #e4e8ea;
+}
+
+.card {
+  max-width: 300px;
+  min-height: 400px;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
