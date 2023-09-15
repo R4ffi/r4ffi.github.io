@@ -23,3 +23,19 @@ h2 {
 .invisible {
   display: none;
 }
+
+.default-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .default-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
