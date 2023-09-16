@@ -5,6 +5,12 @@
   padding: 1em;
   background-color: white;
   color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* You can adjust the z-index value as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-logo a {

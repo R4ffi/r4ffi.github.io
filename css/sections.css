@@ -2,6 +2,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 6em;
+  gap: 4em;
 }
 
 .with-background {
