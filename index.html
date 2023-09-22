@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navigation.css">
-    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="font/sukhumvitset/stylesheet.css">
 </head>
 
@@ -137,7 +138,7 @@
                     </tbody>
                 </table>
                 <p>
-                    Die obere Liftanlage wird nur bei genügender Frequenz in Betrieb gesetzt.
+                    Die obere Liftanlage wird nur bei genügender Frequenz in Betrieb genommen.
                 </p>
             </article>
 
@@ -145,49 +146,40 @@
                 <header>
                     <h2>Preise</h2>
                 </header>
-                <h3>Einzelpersonen</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Kategorie</th>
-                            <th>Tageskarte</th>
-                            <th>Halbtageskarte (ab 13 Uhr)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Erwachsene</td>
-                            <td>CHF 14.-</td>
-                            <td>CHF 12.-</td>
-                        </tr>
-                        <tr>
-                            <td>Kinder (bis 16 Jahre)</td>
-                            <td>CHF 9.-</td>
-                            <td>CHF 7.-</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h3>Schulen</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Preis pro Person</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Tageskarte</td>
-                            <td>CHF 5.-</td>
-                        </tr>
-                        <tr>
-                            <td>Halbtageskarte (ab 13 Uhr)</td>
-                            <td>CHF 7.-</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>Für Schulen werden die Liftanlagen auf Voranmeldung an allen Wochentagen bereits ab 10.00 Uhr in
-                    Betrieb genommen.</p>
+                <div class="pricing-table">
+
+                    <div class="pricing-plan">
+                        <img src="img/children.png" alt="Kinder" class="pricing-img">
+                        <h3 class="pricing-header">Kinder</h3>
+                        <span class="pricing-features">bis 16 Jahre</span>
+                        <span class="pricing-price">CHF 9.-</span>
+                    </div>
+
+                    <div class="pricing-plan">
+                        <img src="img/adults.png" alt="Erwachsene" class="pricing-img">
+                        <h3 class="pricing-header">Erwachsene</h3>
+                        <span class="pricing-features">ab 16 Jahren</span>
+                        <span class="pricing-price">CHF 14.-</span>
+                    </div>
+
+
+                    <div class="pricing-plan">
+                        <img src="img/school.png" alt="Eine Schultasche" class="pricing-img">
+                        <h3 class="pricing-header">Schulen</h3>
+                        <span class="pricing-features">auf Voranmeldung</span>
+                        <span class="pricing-price">CHF 7.-</span>
+                    </div>
+
+                </div>
+
+                <p>
+                    Ab 13 Uhr sind Halbtageskarten für 2 Franken weniger verfügbar.
+                </p>
+                <p>
+                    Für Schulen werden die Liftanlagen auf Voranmeldung an allen Wochentagen bereits ab 10.00 Uhr in
+                    Betrieb genommen.
+                </p>
+
             </article>
         </section>
     </main>
